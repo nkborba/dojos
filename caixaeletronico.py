@@ -1,6 +1,6 @@
 """
 Python #4 Campinas
-DOJO de Phython
+DOJO de Python
 Nicholas Bobra
 26/09/2017
 """
