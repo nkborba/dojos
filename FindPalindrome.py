@@ -5,7 +5,6 @@ def numberToList(n):
     return lista
 
 def invertList(l):
-    lista = l
     length = len(l) #To get the length of the list to be able to do a for properly over the list positions
     pos = length-1  #Length should gave us the total number, but we know lists starts at 0, so let's decrease this number by 1
     
@@ -14,7 +13,7 @@ def invertList(l):
     #if we have an odd number of elements the middle will always keep the same
 
     cont = int(length/2)
-
+    
     for x in range(cont):
         aux = l[x]
         l[x] = l[pos]
