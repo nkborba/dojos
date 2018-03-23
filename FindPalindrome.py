@@ -23,7 +23,7 @@ def invertList(l):
     return l
 
 def findPalindrome(start, end):
-
+    finalList = []
     start_time = time.time()
 
     for num in range(start, end+1):
@@ -35,12 +35,15 @@ def findPalindrome(start, end):
         pos = len(lista)-1
 
         if pos <= 0:
-            print(num)
+            finalList.append(num)
+            #print(num) #Uncomment it if you want to print line by line (slower then now)
         else:   
             if toCompare == lista:
-                print(num)
+                finalList.append(num)
+                #print(num) #Uncomment it if you want to print line by line (slower then now)
     
-    return print("--- %s seconds ---" % (time.time() - start_time))
+    print(finalList) #Comment this line if you has uncommented the two print lines above
+    print("--- Time spent to run: %s seconds ---" % (time.time() - start_time))
         
 start = input("Digite o primeiro numero do intervalo: ")
 end = input("Digite o segundo numero do intervalo: ")
