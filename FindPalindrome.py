@@ -30,8 +30,9 @@ def findPalindrome(start, end):
         lista = numberToList(num)
         #A new list must be created, if we just 
         toCompare = invertList(numberToList(num))
-
-        pos = len(lista)-1  #List lenght will be used as the current position
+        
+        #A new list must be created to avoid any changes on our comparisson list who will be inverted
+        pos = len(lista)-1
 
         if pos <= 0:
             print(num)
