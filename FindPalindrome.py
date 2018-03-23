@@ -41,8 +41,8 @@ def findPalindrome(start, end):
                 finalList.append(num)
                 #print(num) #Uncomment it if you want to print line by line (slower then now)
     
-    print(finalList) #Comment this line if you has uncommented the two print lines above
-    print("--- Time spent to run: %s seconds ---" % (time.time() - start_time))
+    #If you've uncommented the two prints above remove finalList on return
+    return print(finalList, "\n--- Time spent to run: %s seconds ---" % (time.time() - start_time))
         
 start = input("Digite o primeiro numero do intervalo: ")
 end = input("Digite o segundo numero do intervalo: ")
