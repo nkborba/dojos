@@ -1,3 +1,6 @@
+# Desafio 02 - OsProgramadores
+# Nicholas Borba
+
 lista = []; listaPrimos = []
 for num in range(1, 10000, 2): #Preenche com números impares
     lista.append(num)

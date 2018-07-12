@@ -1,3 +1,6 @@
+# Desafio 03 - OsProgramadores
+# Nicholas Borba
+
 import time
 
 def numberToList(n):
