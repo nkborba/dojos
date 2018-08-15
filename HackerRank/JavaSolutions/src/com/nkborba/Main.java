@@ -4,9 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        solution s = new solution();
-        String result = Boolean.toString(s.isALeapOrNot(2000));
+        VerifyLeapYear verificaAno = new VerifyLeapYear();
+        mergeStrings mergeStrings = new mergeStrings();
 
-        System.out.print(result.toUpperCase());
+//        Verificar se um ano é bisexto ou não
+//        String result = Boolean.toString(verificaAno.isALeapOrNot(2000));
+
+//        Concatenar duas strings intercalando primeiros chars
+        String result = mergeStrings.merge("aaaa", "bbbbcSccc");
+
+
+        System.out.print(result);
+
     }
 }

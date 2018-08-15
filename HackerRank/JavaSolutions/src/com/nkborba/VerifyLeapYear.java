@@ -1,6 +1,6 @@
 package com.nkborba;
 
-public class solution {
+public class VerifyLeapYear {
 
     public boolean isALeapOrNot(int year){
 
